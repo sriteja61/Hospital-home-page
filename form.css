@@ -1,0 +1,68 @@
+.box{
+    margin-left: 20%;
+    width:fit-content;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color:white;
+    position: relative;
+
+}
+.form-group{
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top:10px;
+}
+.form-control{
+    border-radius:5px;
+}
+.form-control:hover{
+border:solid black;
+}
+
+#formbutton{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left:40%;
+    width:100px;
+    border: 2px solid black;
+    border-radius:5px;
+    margin-bottom: 10px;
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+} 
+#formbutton:hover{
+    background-color: #84c5cb;
+}
+#formheading{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:0px;
+    border-radius: 10px 10px 0px 0px;
+    background-color:#CDFCF6;
+}
+select{
+    border:light rgb(48, 42, 42);
+    border-radius: 5px;
+     width:100%;
+}
+.formrow{
+display:flex;
+justify-content: space-between;
+
+}
+section { 
+padding-top: 40px;
+padding-bottom: 20px;
+background-image: url("https://img.freepik.com/free-photo/doctor-is-going-examine-his-patient-using-his-stethoscope-sitting-people_1150-6561.jpg?w=1060&t=st=1693671987~exp=1693672587~hmac=3f6b869840f06185625a479bd65023e0b25f9dc6e9fdc44df54db6b2beee2ce3");
+background-size:cover;
+background-repeat: no-repeat;
+max-height:100%;
+}

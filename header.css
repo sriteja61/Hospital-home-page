@@ -1,0 +1,71 @@
+/* Reset some default styles and set a background color */
+
+/* Style the header */
+header {
+  background-color: rgb(46, 188, 201); /* Change this to your desired header color */
+  color: #fff; /* Text color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.logo{
+  display: grid;
+  align-items: center; 
+  grid-template-columns:1fr 2fr;
+ }
+ #headertext{
+  background:linear-gradient(90deg, #c38c3b 0%, #fe8f3b 35%, hsl(0, 71%, 33%) 100%);
+    Font-size:40px;
+    padding-right:20px;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+    
+ 
+ 
+ #headerimage{
+   max-height:200px;
+   max-width:200px
+ }
+
+
+/* Style the button*/
+#headerbutton{
+  border-radius:5px;
+}
+#headerbutton:hover{
+  background:linear-gradient(90deg, #c38c3b 0%, #fe8f3b 35%, hsl(0, 71%, 33%) 100%);
+
+}
+/* Style the navigation menu */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px; /* Adjust the margin as needed */
+  font-size: 25px;
+}
+
+nav ul li:last-child {
+  margin-right: 0px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff; /* Link text color */
+  font-weight: bold;
+  transition: color 0.3s; /* Add a smooth color transition effect */
+}
+
+nav ul li a:hover {
+  background:linear-gradient(90deg, #c38c3b 0%, #fe8f3b 35%, hsl(0, 71%, 33%) 100%);
+  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; /* Change the color on hover */
+}
